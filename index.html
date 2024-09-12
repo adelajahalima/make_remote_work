@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Intro section with dropdown navigation</title>
+</head>
+<body>
+
+  	<nav role="navigation">
+		<div class="nav-container">
+			<div class="nav-left">
+				<div class="nav-logo"><img src="./assets/logo.svg" alt=""></div>
+				<ul class="nav-links">
+					<li>Features
+						<img class="arrow" src="./assets/icon-arrow-up.svg" alt="">
+						<div class="sub-menu one">
+						<p class="sub-link">
+							<img src="./assets/icon-todo.svg" alt="">
+							Todo List
+						</p>
+						<p class="sub-link">
+							<img src="./assets/icon-calendar.svg" alt="">
+							Calendar
+						</p>
+						<p class="sub-link">
+							<img src="./assets/icon-reminders.svg" alt="">
+							Reminders
+						</p>
+						<p class="sub-link">
+							<img src="./assets/icon-planning.svg" alt="">
+							Planning
+						</p>
+						</div>
+					</li>
+					<li>Company
+						<img class="arrow" src="./assets/icon-arrow-up.svg" alt="">
+						<div class="sub-menu two">
+						<p class="sub-link">
+							History
+						</p>
+						<p class="sub-link">
+							Our Team
+						</p>
+						<p class="sub-link">
+							Blog
+						</p>
+						</div>
+					</li>
+					<li>Careers</li>
+					<li>About</li>
+				</ul>
+			</div>
+			<div class="mobile-menu-btn">
+				<img src="./assets/icon-menu.svg" alt="icon">
+			</div>
+			<div class="mobile-menu">
+				<ul class="mobile-links">
+				<li>
+					<p>
+					Features <img src="./assets/icon-arrow-down.svg" alt="">
+					</p>
+					<div class="mobile-sub">
+					<p class="sub-link">
+						<img src="/assets/icon-todo.svg" alt="icon"> Todo List
+					</p>
+					<p class="sub-link">
+						<img src="/assets/icon-calendar.svg" alt="icon"> Calendar
+					</p>
+					<p class="sub-link">
+						<img src="/assets/icon-reminders.svg" alt="icon"> Reminders
+					</p>
+					<p class="sub-link">
+						<img src="/assets/icon-planning.svg" alt="icon"> Planning
+					</p>
+					</div>
+				</li>
+				<li>
+					<p>
+					Company <img src="./assets/icon-arrow-down.svg" alt="">
+					</p>
+					<div class="mobile-sub">
+					<p class="sub-link"> History
+					</p>
+					<p class="sub-link"> Our Team
+					</p>
+					<p class="sub-link"> Blog
+					</p>
+					</div>
+				</li>
+				<li>Careers</li>
+				<li>About</li>
+				</ul>
+			</div>
+			<div class="nav-right">
+				<button class="transparent-btn">Login</button>
+				<button class="outlined-btn">Register</button>
+			</div>
+		</div>
+  	</nav>
+
+  <main role="main">
+    <div class="main-container">
+      <div class="main-left">
+        <h1 class="main-heading">Make <br> remote work</h1>
+        <p class="main-content"> Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="primary-btn">Learn more</button>
+        <div class="brands">
+          <img src="./assets/client-databiz.svg" alt="databiz brand logo">
+          <img src="./assets/client-audiophile.svg" alt="audiophile brand logo">
+          <img src="./assets/client-meet.svg" alt="meet brand logo">
+          <img src="./assets/client-maker.svg" alt="meet brand logo">
+        </div>
+      </div>
+      <div class="main-right">
+    
+        	<img class="desktop_main_img" src="./assets/image-hero-desktop.png" alt="main image">
+      </div>
+    </div>
+  </main>
+
+  <div class="overflow"></div>
+  <footer>
+	<div class="attribution">
+	  <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+	  Coded by <a href="#">Halima Adelaja</a></p>
+	</div>
+  </footer>
+</body>
+</html>
