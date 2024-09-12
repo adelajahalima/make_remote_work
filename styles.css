@@ -128,9 +128,12 @@ nav {
   width: 150px;
   gap: 0.5rem;
 }
-.arrow {
+.active .arrow {
   transform: rotate(180deg);
   transition: 0.2s;
+}
+.active-menu {
+  display: flex !important;
 }
 /* Main section styling */
 main {
@@ -167,7 +170,7 @@ main {
   margin-top: 6.2rem;
 }
 .main-right img{
-    height: 600px;
+  height: 600px;
 }
 
 footer .attribution p{
